@@ -30,5 +30,4 @@ def __list_all_modules():
 
 
 ALL_MODULES = __list_all_modules()
-HYPEEED.info("🔥==================================================🔥")
 __all__ = ALL_MODULES + ["ALL_MODULES"]

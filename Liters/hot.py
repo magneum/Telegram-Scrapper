@@ -6,6 +6,7 @@ IMPORTED = {}
 import sys
 import requests
 import requests
+from sys import platform
 from loguru import logger
 from telegram.ext import CallbackContext
 from telegram import ChatAction, Update
