@@ -9,7 +9,6 @@ for module_name in ALL_MODULES:
         IMPORTED[imported_module.__HYAPI__.lower()] = imported_module
 
 
-HYPEEED.info("🔥==================================================🔥")
 HYPEEED.info("—✨••÷[  HVApiBot⚔️  ]÷••✨—")
 HYPEEED.info("⚔️ LOADED" + str(ALL_MODULES).upper())
 HYPEEED.info("🔥==================================================🔥")
