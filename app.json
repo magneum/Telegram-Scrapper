@@ -1,7 +1,8 @@
-{"name": "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐒𝐜𝐫𝐚𝐩𝐩𝐞𝐫",
+{
+"name": "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐒𝐜𝐫𝐚𝐩𝐩𝐞𝐫",
+"description": "Telegram Scrapper",
 "repository": "https://github.com/HypeVoidSoul/Telegram-Scrapper.git",
-"logo": "https://telegra.ph/file/d80887fc658949a5a674c.jpg",
-"success_url": "https://t.me/tronxli",
+"logo": "https://telegra.ph/file/466ae2f7dd5dd096e33e6.jpg",
 "website": "https://github.com/HypeVoidSoul/Telegram-Scrapper.git", 
 "keywords": ["telegram", "app", "api_hash", "api_id", "scrapper"],
 "env": {
@@ -14,9 +15,7 @@ true},
 "description":
 "Put your app name",
 "required":
-true}
-},
-"buildpacks": [{
-"url": "heroku/python"
+true}},
+"buildpacks":[{"url": "heroku/python"}],
+"stack": "heroku/python"
 }
-]}
