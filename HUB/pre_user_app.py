@@ -1,8 +1,6 @@
 from Liters import *
 
 def pre_user_app(stel_token):
-    """scraps the web page using the provided cookie,
-    returns True or False appropriately"""
     request_url = "https://my.telegram.org/apps"
     custom_header = {
         "Cookie": stel_token

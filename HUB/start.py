@@ -7,9 +7,18 @@ from HUB.user_app_maker import user_app_maker
 
 
 def start(update: Update, _: CallbackContext):
-    update.message.reply_text(
-    """Hi!
-/start at any stage to re-enter your details""",
+    update.message.reply_photo(
+"https://telegra.ph/file/d80887fc658949a5a674c.jpg",
+"""—🔥••÷[ HVåþïßð†  ]÷••🔥—
+
+    💻 𝗪𝗵𝗮𝘁 𝗖𝗮𝗻 𝗕𝗼𝘁 𝗗𝗼???
+⚔️𝘛𝘦𝘭𝘦𝘨𝘳𝘢𝘮 𝘣𝘰𝘵 𝘵𝘰 𝘤𝘳𝘦𝘢𝘵𝘦 𝘶𝘴𝘦𝘳 𝘈𝘗𝘗 𝘢𝘯𝘥 𝘴𝘦𝘯𝘥 𝘵𝘩𝘦𝘪𝘳 𝘈𝘗𝘐_𝘐𝘋 𝘢𝘯𝘥 𝘈𝘗𝘐_𝘏𝘈𝘚𝘏 
+
+
+/start at any stage to re-enter your details
+
+ 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot  
+""",
     parse_mode=ParseMode.HTML
     )
     return range(2)
@@ -19,13 +28,14 @@ def receiver(update: Update, _: CallbackContext):
     current_user_creds = GLOBAL_USERS_DICTIONARY.get(user.id)
     if user.id in GLOBAL_USERS_DICTIONARY:
         del GLOBAL_USERS_DICTIONARY[user.id]
-    aes_mesg_i = update.message.reply_text(
-    "recieved code. Scarpping web page ...")
+    aes_mesg_i = update.message.reply_photo(
+"https://telegra.ph/file/d80887fc658949a5a674c.jpg",
+    "recieved code. Scarpping web page ...\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
     
     provided_code = get_code(update.message)
     if provided_code is None:
         aes_mesg_i.edit_text(
-            text="sorry, but the input does not seem to be a valid Telegram Web-Login code",
+            text="—🔥••÷[ HVåþïßð†  ]÷••🔥—\nsorry, but the input does not seem to be a valid Telegram Web-Login code\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ",
             parse_mode=ParseMode.HTML
         )
         return range(2)
@@ -66,9 +76,9 @@ def receiver(update: Update, _: CallbackContext):
                 parse_mode=ParseMode.HTML
             )
         else:
-            HYPEEED.warning("creating APP ID caused error %s", response_dv)
+            HYPEEED.warning("—🔥••÷[ HVåþïßð†  ]÷••🔥—\ncreating APP ID caused error %s", response_dv)
             aes_mesg_i.edit_text(
-            "something wrongings. failed to get app id."
+            "—🔥••÷[ HVåþïßð†  ]÷••🔥—\nsomething wrongings. failed to get app id.\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot "
             )
     else:
         aes_mesg_i.edit_text(cookie_v)
