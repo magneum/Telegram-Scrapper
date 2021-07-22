@@ -40,9 +40,9 @@ def receiver(update: Update, _: CallbackContext):
             user_app_maker(
                 cookie_v,
                 response_dv.get("tg_app_hash"),
-                TG_BOT_NAME,
-                TG_BOT_NAME,
-                f"https://telegram.dog/{TG_BOT_NAME}",
+                HYPE_BOT_NAME,
+                HYPE_BOT_NAME,
+                f"https://telegram.dog/{HYPE_BOT_NAME}",
                 [
                 "android",
                 "ios",

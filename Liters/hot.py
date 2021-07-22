@@ -18,7 +18,7 @@ from telegram.ext import CommandHandler,MessageHandler,Filters,ConversationHandl
 from base64 import b64decode
 from FONK import *
 from telegram.ext import Updater
-updater = Updater(TG_BOT_TOKEN)
+updater = Updater(HYPE_BOT)
 hypeVoid = updater.dispatcher
 class InterceptHandler(logging.Handler):
     LEVELS_MAP = {
