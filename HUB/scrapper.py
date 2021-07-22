@@ -7,7 +7,14 @@ from HUB.user_app_maker import user_app_maker
 
 
 def scrap(update: Update, _: CallbackContext):
-    update.message.reply_text("🔺𝐍𝐨𝐰 𝐬𝐞𝐧𝐝 𝐦𝐞 𝐲𝐨𝐮𝐫 𝐩𝐡𝐨𝐧𝐞 𝐧𝐮𝐦𝐛𝐞𝐫 𝐰𝐢𝐭𝐡 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐜𝐨𝐮𝐧𝐭𝐫𝐲 𝐜𝐨𝐝𝐞🔻\n\n\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
+    update.message.reply_text(
+    """—🎀••÷[ HVåþïßð†  ]÷••🎀—
+                              
+🔺𝐍𝐨𝐰 𝐬𝐞𝐧𝐝 𝐦𝐞 𝐲𝐨𝐮𝐫 𝐩𝐡𝐨𝐧𝐞 𝐧𝐮𝐦𝐛𝐞𝐫 𝐰𝐢𝐭𝐡 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐜𝐨𝐮𝐧𝐭𝐫𝐲 𝐜𝐨𝐝𝐞🔻
+        
+ 🦞DΣV MΣПƬIӨП:
+💻 @hypevoidsoul | @hypevoidbot 
+""")
     return range(2)
 def receiver(update: Update, _: CallbackContext):
     user = update.message.from_user
@@ -16,7 +23,15 @@ def receiver(update: Update, _: CallbackContext):
         del GLOBAL_USERS_DICTIONARY[user.id]
     seeders = update.message.reply_photo(
 "https://telegra.ph/file/d80887fc658949a5a674c.jpg",
-    "ʀᴇᴄɪᴇᴠᴇᴅ ᴄᴏᴅᴇ.....\nᴍᴀᴋɪɴɢ ɪᴛ ᴘʀᴇᴛᴛʏ ᴀɴᴅ ʜᴜᴍᴀɴ ʀᴇᴀᴅᴀʙʟᴇ\n\n\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
+    """—🎀••÷[ HVåþïßð†  ]÷••🎀—
+           
+ʀᴇᴄɪᴇᴠᴇᴅ ᴄᴏᴅᴇ.....
+ᴍᴀᴋɪɴɢ ɪᴛ ᴘʀᴇᴛᴛʏ ᴀɴᴅ ʜᴜᴍᴀɴ ʀᴇᴀᴅᴀʙʟᴇ
+
+ 🦞DΣV MΣПƬIӨП:
+💻 @hypevoidsoul | @hypevoidbot 
+    
+""")
     
     provided_code = get_code(update.message)
     if provided_code is None:
