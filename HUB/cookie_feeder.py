@@ -3,10 +3,7 @@ from Liters import *
 def cookie_feeder(
         input_phone_number,
         tg_random_hash,
-        tg_cloud_password
-):
-    """Logins to my.telegram.org and returns the cookie,
-    or False in case of failure"""
+        tg_cloud_password):
     request_url = "https://my.telegram.org/auth/login"
     request_data = {
         "phone": input_phone_number,
