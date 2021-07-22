@@ -16,6 +16,5 @@ true},
 "Put your app name",
 "required":
 true}},
-"buildpacks":[{"url": "heroku/python"}],
-"stack": "heroku/python"
+"buildpacks":[{"url": "heroku/python"}]
 }
