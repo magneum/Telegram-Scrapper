@@ -1,12 +1,11 @@
-{"name": "『🍰",
-"description": "",
-"repository": "https://github.com/HypeVoidSoul/t",
-"logo": "https://telegra.ph/file/309fa4e4bdae98dd658c1.jpg",
+{"name": "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐒𝐜𝐫𝐚𝐩𝐩𝐞𝐫",
+"repository": "https://github.com/HypeVoidSoul/Telegram-Scrapper.git",
+"logo": "https://telegra.ph/file/d80887fc658949a5a674c.jpg",
 "success_url": "https://t.me/tronxli",
-"website": "https://github.com/HypeVoidSoul/", 
+"website": "https://github.com/HypeVoidSoul/Telegram-Scrapper.git", 
 "keywords": ["telegram", "app", "api_hash", "api_id", "scrapper"],
 "env": {
-"TOKEN":{
+"HYPE_BOT":{
 "description":
 "Your telegram bot token.Get from Botfather",
 "required":

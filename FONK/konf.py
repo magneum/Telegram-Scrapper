@@ -1,2 +1,3 @@
-HYPE_BOT = "1801733719:AAFuEy0-jfylUP7xPmX8_oXWBMunSD0tNVs"
-HYPE_BOT_NAME = "HVApiBot"
+import os
+HYPE_BOT = os.environ.get("HYPE_BOT")
+HYPE_BOT_NAME = os.environ.get("HYPE_BOT_NAME")
