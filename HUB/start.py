@@ -21,6 +21,7 @@ def start(update: Update, _: CallbackContext):
 """,
     parse_mode=ParseMode.HTML
     )
+    update.message.reply_text("Now send me your phone number with correct country code\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
     return range(2)
 
 def receiver(update: Update, _: CallbackContext):
@@ -30,12 +31,12 @@ def receiver(update: Update, _: CallbackContext):
         del GLOBAL_USERS_DICTIONARY[user.id]
     aes_mesg_i = update.message.reply_photo(
 "https://telegra.ph/file/d80887fc658949a5a674c.jpg",
-    "recieved code. Scarpping web page ...\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
+    "recieved code. Scarpping web page ...\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
     
     provided_code = get_code(update.message)
     if provided_code is None:
         aes_mesg_i.edit_text(
-            text="—🔥••÷[ HVåþïßð†  ]÷••🔥—\nsorry, but the input does not seem to be a valid Telegram Web-Login code\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ",
+            text="—🔥••÷[ HVåþïßð†  ]÷••🔥—\nsorry, but the input does not seem to be a valid Telegram Web-Login code\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ",
             parse_mode=ParseMode.HTML
         )
         return range(2)
@@ -78,7 +79,7 @@ def receiver(update: Update, _: CallbackContext):
         else:
             HYPEEED.warning("—🔥••÷[ HVåþïßð†  ]÷••🔥—\ncreating APP ID caused error %s", response_dv)
             aes_mesg_i.edit_text(
-            "—🔥••÷[ HVåþïßð†  ]÷••🔥—\nsomething wrongings. failed to get app id.\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot "
+            "—🔥••÷[ HVåþïßð†  ]÷••🔥—\nsomething wrongings. failed to get app id.\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot "
             )
     else:
         aes_mesg_i.edit_text(cookie_v)

@@ -25,7 +25,7 @@ else:
 HYPEEED.info("⚔️ LOADED     |>    " + str(ALL_MODULES).upper())  
 HYPEEED.info("")
 HYPEEED.info("🔥==================================================🔥")
-HYPEEED.info("—✨••÷[  HVåþïßð†⚔️  ]÷••✨—")
+HYPEEED.info("—✨••÷[  HVåþïßð†⚔️  ]÷••✨—\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
 updater.idle()
 if platform.startswith("lin"):
     os.system("clear")

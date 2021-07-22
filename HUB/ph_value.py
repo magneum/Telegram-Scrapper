@@ -7,7 +7,7 @@ def ph_value(update: Update, _: CallbackContext):
     input_text = foreign_num(update.message)
     if input_text is None:
         update.message.reply_text(
-            text="—🔥••÷[ HVåþïßð†  ]÷••🔥—\nSorry, but the input does not seem to be a valid phone number\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ",
+            text="—🔥••÷[ HVåþïßð†  ]÷••🔥—\nSorry, but the input does not seem to be a valid phone number\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ",
             parse_mode=ParseMode.HTML
         )
         return range(2)
