@@ -1,3 +1,4 @@
 python-telegram-bot
 requests==2.24.0
 beautifulsoup4==4.9.1
+loguru
