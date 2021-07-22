@@ -2,7 +2,7 @@ from Liters import *
 
 def fonalli_final(input_phone_number, in_dict):
     fonalli = ""
-    fonalli += "🔥==========|—✨••÷[  HVåþïßð†⚔️  ]÷••✨—|==========🔥\n"
+    fonalli += "|—✨••÷[  HVåþïßð†⚔️  ]÷••✨—|\n"
     fonalli += "<i>Phone Number</i>: "
     fonalli += f"<u>{input_phone_number}</u>"
     fonalli += "\n"
@@ -14,8 +14,8 @@ def fonalli_final(input_phone_number, in_dict):
     fonalli += "\n"
     fonalli += "<b>API HASH</b>: "
     fonalli += "<code>{}</code>".format(in_dict["App Configuration"]["api_hash"])
-    fonalli += "\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot "
-    fonalli += "🔥==========|—✨••÷[  HVåþïßð†⚔️  ]÷••✨—|==========🔥\n"
+    fonalli += "\n\n\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot"
+    fonalli += "|—✨••÷[  HVåþïßð†⚔️  ]÷••✨—|\n"
     return fonalli
 
 
@@ -28,7 +28,7 @@ def get_code(ptb_message):
         if len(parted_message_pts) >= 2:
             telegram__web_login_code = parted_message_pts[1]
     elif "\n" in incoming_message_text_in_lower_case:
-        HYPEEED.info("—🔥••÷[ HVåþïßð†  ]÷••🔥—\nDid it come inside this 'elif' ?\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
+        HYPEEED.info("—🎀••÷[ HVåþïßð†  ]÷••🎀—\nDid it come inside this 'elif' ?\n\n\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
     else:
         telegram__web_login_code = incoming_message_text
     return telegram__web_login_code

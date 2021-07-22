@@ -8,7 +8,7 @@ import requests
 import requests
 from sys import platform
 from loguru import logger
-from telegram.ext import CallbackContext
+from telegram.ext import CallbackContext, commandhandler
 from telegram import ChatAction, Update
 import requests
 import importlib

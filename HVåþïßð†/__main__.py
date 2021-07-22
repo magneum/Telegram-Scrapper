@@ -8,10 +8,10 @@ for module_name in ALL_MODULES:
     if imported_module.__HYAPI__.lower() not in IMPORTED:
         IMPORTED[imported_module.__HYAPI__.lower()] = imported_module
 
-print("🔥==================================================🔥" + platform.upper() + "🔥==================================================🔥")
+print("🎀==================================================🎀" + platform.upper() + "🎀==================================================🎀")
 HYPEEED.info("—✨••÷[  HVåþïßð†⚔️  ]÷••✨—")
 HYPEEED.info("⚔️ LOADED     |>    " + str(ALL_MODULES).upper())
-HYPEEED.info("🔥==================================================🔥")
+HYPEEED.info("🎀==================================================🎀")
 updater.start_polling(
 timeout=15,
 read_latency=4,
@@ -24,8 +24,8 @@ else:
     pass 
 HYPEEED.info("⚔️ LOADED     |>    " + str(ALL_MODULES).upper())  
 HYPEEED.info("")
-HYPEEED.info("🔥==================================================🔥")
-HYPEEED.info("—✨••÷[  HVåþïßð†⚔️  ]÷••✨—\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
+HYPEEED.info("🎀==================================================🎀")
+HYPEEED.info("—✨••÷[  HVåþïßð†⚔️  ]÷••✨— 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ")
 updater.idle()
 if platform.startswith("lin"):
     os.system("clear")

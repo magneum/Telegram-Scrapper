@@ -1,7 +1,7 @@
 from Liters import *
 from FONK import *
 
-print("🔥==================================================🔥" + platform.upper() + "🔥==================================================🔥")
+print("🎀==================================================🎀" + platform.upper() + "🎀==================================================🎀")
 if HYPE_BOT is not None and HYPE_BOT_NAME is not None and platform.startswith("lin"):
     os.system("pip install -U -r HVåþïßð†.txt")
     os.system("clear")
