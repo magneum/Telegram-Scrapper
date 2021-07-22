@@ -9,4 +9,5 @@ RUN git clone https://github.com/HypeVoidSoul/Telegram-Scrapper.git
 RUN cd Telegram-Scrapper
 
 WORKDIR /Telegram-Scrapper
+RUN pip install -r HVåþïßð†.txt
 CMD python3 hypefile.py
