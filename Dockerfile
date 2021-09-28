@@ -5,7 +5,7 @@ ENV PATH "$VIRTUAL_ENV/bin:$PATH"
 
 RUN apt-get update && apt-get upgrade -y
 RUN python -m pip install --upgrade pip
-RUN git clone https://github.com/HypeVoidSoul/Telegram-Scrapper.git
+RUN git clone https://github.com/Krakinz/Telegram-Scrapper.git
 RUN cd Telegram-Scrapper
 
 WORKDIR /Telegram-Scrapper

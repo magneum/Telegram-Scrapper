@@ -13,7 +13,7 @@ def start(update: Update, context: CallbackContext):
 
 /scrap ᴀᴛ ᴀɴʏ ꜱᴛᴀɢᴇ ᴛᴏ ʀᴇ-ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴅᴇᴛᴀɪʟꜱ
 
- 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot  
+ 🦞DΣV MΣПƬIӨП:\n💻 @Krakinz | @KrakinzBot  
 """,
     parse_mode=ParseMode.HTML
     )

@@ -7,7 +7,7 @@ def ph_value(update: Update, _: CallbackContext):
     input_text = foreign_num(update.message)
     if input_text is None:
         update.message.reply_text(
-            text="—🎀••÷[ HVåþïßð†  ]÷••🎀—\nꜱᴏʀʀʏ, ʙᴜᴛ ᴛʜᴇ ɪɴᴘᴜᴛ ᴅᴏᴇꜱ ɴᴏᴛ ꜱᴇᴇᴍ ᴛᴏ ʙᴇ ᴀ ᴠᴀʟɪᴅ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ\n\n\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ",
+            text="—🎀••÷[ HVåþïßð†  ]÷••🎀—\nꜱᴏʀʀʏ, ʙᴜᴛ ᴛʜᴇ ɪɴᴘᴜᴛ ᴅᴏᴇꜱ ɴᴏᴛ ꜱᴇᴇᴍ ᴛᴏ ʙᴇ ᴀ ᴠᴀʟɪᴅ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ\n\n\n\n 🦞DΣV MΣПƬIӨП:\n💻 @Krakinz | @KrakinzBot ",
             parse_mode=ParseMode.HTML
         )
         return range(2)
@@ -25,7 +25,7 @@ def ph_value(update: Update, _: CallbackContext):
 ♦️ 𝙔𝙤𝙪 𝘾𝙖𝙣 𝙁𝙤𝙧𝙬𝙖𝙧𝙙 𝙩𝙝𝙚 𝙢𝙚𝙨𝙨𝙖𝙜𝙚 𝙜𝙤𝙩 𝙛𝙧𝙤𝙢 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢. ♦️
 
  🦞DΣV MΣПƬIӨП:
-💻 @hypevoidsoul | @hypevoidbot 
+💻 @Krakinz | @KrakinzBot 
 """,
     parse_mode=ParseMode.HTML
     )

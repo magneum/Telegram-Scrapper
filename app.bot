@@ -1,9 +1,9 @@
 {
 "name": "𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐒𝐜𝐫𝐚𝐩𝐩𝐞𝐫",
 "description": "Telegram Scrapper",
-"repository": "https://github.com/HypeVoidSoul/Telegram-Scrapper.git",
+"repository": "https://github.com/Krakinz/Telegram-Scrapper.git",
 "logo": "https://telegra.ph/file/466ae2f7dd5dd096e33e6.jpg",
-"website": "https://github.com/HypeVoidSoul/Telegram-Scrapper.git", 
+"website": "https://github.com/Krakinz/Telegram-Scrapper.git", 
 "keywords": ["telegram", "app", "api_hash", "api_id", "scrapper"],
 "env": {
 "HYPE_BOT":{

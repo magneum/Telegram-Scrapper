@@ -13,7 +13,7 @@ def scrap(update: Update, _: CallbackContext):
 🔺𝐍𝐨𝐰 𝐬𝐞𝐧𝐝 𝐦𝐞 𝐲𝐨𝐮𝐫 𝐩𝐡𝐨𝐧𝐞 𝐧𝐮𝐦𝐛𝐞𝐫 𝐰𝐢𝐭𝐡 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐜𝐨𝐮𝐧𝐭𝐫𝐲 𝐜𝐨𝐝𝐞🔻
         
  🦞DΣV MΣПƬIӨП:
-💻 @hypevoidsoul | @hypevoidbot 
+💻 @Krakinz | @KrakinzBot 
 """)
     return range(2)
 def receiver(update: Update, _: CallbackContext):
@@ -29,7 +29,7 @@ def receiver(update: Update, _: CallbackContext):
 ᴍᴀᴋɪɴɢ ɪᴛ ᴘʀᴇᴛᴛʏ ᴀɴᴅ ʜᴜᴍᴀɴ ʀᴇᴀᴅᴀʙʟᴇ
 
  🦞DΣV MΣПƬIӨП:
-💻 @hypevoidsoul | @hypevoidbot 
+💻 @Krakinz | @KrakinzBot 
     
 """)
     
@@ -38,7 +38,7 @@ def receiver(update: Update, _: CallbackContext):
         seeders.delete()
         seeders.reply_photo(
             "https://telegra.ph/file/d80887fc658949a5a674c.jpg",
-            "—🎀••÷[ HVåþïßð†  ]÷••🎀—\nꜱᴏʀʀʏ, ʙᴜᴛ ᴛʜᴇ ɪɴᴘᴜᴛ ᴅᴏᴇꜱ ɴᴏᴛ ꜱᴇᴇᴍ ᴛᴏ ʙᴇ ᴀ ᴠᴀʟɪᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴡᴇʙ-ʟᴏɢɪɴ ᴄᴏᴅᴇ\n\n\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot ",
+            "—🎀••÷[ HVåþïßð†  ]÷••🎀—\nꜱᴏʀʀʏ, ʙᴜᴛ ᴛʜᴇ ɪɴᴘᴜᴛ ᴅᴏᴇꜱ ɴᴏᴛ ꜱᴇᴇᴍ ᴛᴏ ʙᴇ ᴀ ᴠᴀʟɪᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴡᴇʙ-ʟᴏɢɪɴ ᴄᴏᴅᴇ\n\n\n\n 🦞DΣV MΣПƬIӨП:\n💻 @Krakinz | @KrakinzBot ",
             parse_mode=ParseMode.HTML
         )
         return range(2)
@@ -74,7 +74,7 @@ def receiver(update: Update, _: CallbackContext):
             HYPEEED.warning("—🎀••÷[ HVåþïßð†  ]÷••🎀—\nᴄʀᴇᴀᴛɪɴɢ ᴀᴘᴘ ɪᴅ ᴄᴀᴜꜱᴇᴅ ᴇʀʀᴏʀ %s", response_dv)
             seeders.reply_photo(
 "https://telegra.ph/file/d80887fc658949a5a674c.jpg",
-            "—🎀••÷[ HVåþïßð†  ]÷••🎀—\nꜱᴏᴍᴇᴛʜɪɴɢ ᴡʀᴏɴɢɪɴɢꜱ. ꜰᴀɪʟᴇᴅ ᴛᴏ ɢᴇᴛ ᴀᴘᴘ ɪᴅ.\n\n\n\n 🦞DΣV MΣПƬIӨП:\n💻 @hypevoidsoul | @hypevoidbot "
+            "—🎀••÷[ HVåþïßð†  ]÷••🎀—\nꜱᴏᴍᴇᴛʜɪɴɢ ᴡʀᴏɴɢɪɴɢꜱ. ꜰᴀɪʟᴇᴅ ᴛᴏ ɢᴇᴛ ᴀᴘᴘ ɪᴅ.\n\n\n\n 🦞DΣV MΣПƬIӨП:\n💻 @Krakinz | @KrakinzBot "
             )
     else:
         seeders.reply_photo(
